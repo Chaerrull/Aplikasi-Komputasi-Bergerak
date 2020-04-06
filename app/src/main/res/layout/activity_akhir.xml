@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Akhir"
+    android:background="#f2f2f2">
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:id="@+id/beres"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beres! Sekarang"
+        android:textSize="12pt"
+        android:textColor="#202020"
+        android:fontFamily="@font/nunito_bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="7dp"
+        android:layout_toEndOf="@+id/beres"
+        android:id="@+id/nama"
+        android:textSize="12pt"
+        android:layout_marginRight="20dp"
+        android:textColor="#202020"
+        android:fontFamily="@font/nunito_bold"/>
+
+    <TextView
+        android:layout_marginStart="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunito_bold"
+        android:layout_below="@+id/beres"
+        android:layout_marginEnd="20dp"
+        android:text="udah bisa ngecek penggunaan HP mu tiap hari buat bantu kamu ngatur waktu :)"
+        android:textColor="#202020"
+        android:textSize="12pt" />
+
+    <Button
+        android:id="@+id/oke"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_oval"
+        android:text="Oke"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"
+        android:textSize="9pt" />
+
+</RelativeLayout>

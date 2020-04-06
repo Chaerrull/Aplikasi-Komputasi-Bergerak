@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".code_keluarga">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="@font/nunito_bold"
+        android:gravity="center"
+        android:text="@string/kode_kel"
+        android:textColor="#202020"
+        android:textSize="12pt"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/disc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="312dp"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/disc_kode"
+        android:textColor="#202020"
+        android:textSize="6pt" />
+
+    <TextView
+        android:id="@+id/ketentuan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="47dp"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:layout_below="@+id/disc"
+        android:textStyle="bold"
+        android:text="Ketentuan Pengguna"
+        android:textColor="#202020"
+        android:textSize="6pt" />
+    <TextView
+        android:id="@+id/dan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_below="@+id/disc"
+        android:layout_toEndOf="@+id/ketentuan"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:text="dan"
+        android:textColor="#202020"
+        android:textSize="6pt" />
+    <TextView
+        android:id="@+id/kebijakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_below="@+id/disc"
+        android:layout_toEndOf="@+id/dan"
+        android:fontFamily="@font/rubik_regular"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Kebijakan Data"
+        android:textColor="#202020"
+        android:textSize="6pt" />
+
+    <TextView
+        android:id="@+id/kami"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="4dp"
+        android:layout_below="@+id/disc"
+        android:layout_toEndOf="@+id/kebijakan"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="center"
+        android:text="kami"
+        android:textColor="#202020"
+        android:textSize="6pt" />
+
+    <TextView
+        android:id="@+id/ketik"
+        android:layout_width="362dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="76dp"
+        android:fontFamily="@font/rubik_regular"
+        android:gravity="start"
+        android:text="@string/sub_kode"
+        android:textColor="#202020"
+        android:textSize="10pt"
+        android:textStyle="normal"
+        android:layout_centerHorizontal="true"/>
+
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="355dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button_oval"
+        android:text="@string/masuk"
+        android:fontFamily="@font/nunito_bold"
+        android:textAllCaps="false"
+        android:textSize="9pt"
+        android:layout_centerHorizontal="true"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="#f8f8f8"
+        android:layout_alignParentBottom="true" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="@string/belum"
+            android:textSize="10pt" />
+
+        <Button
+                android:id="@+id/beli"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="28dp"
+                android:layout_marginEnd="28dp"
+                android:layout_marginTop="65dp"
+                android:background="@drawable/button_oval_ungu"
+                android:fontFamily="@font/nunito_bold"
+                android:text="@string/beliKode"
+                android:textAllCaps="false"
+                android:textSize="9pt" />
+    </FrameLayout>
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@+id/ketik"
+        android:background="@drawable/isian_oval"
+        android:fontFamily="@font/nunito_bold"
+        android:textSize="14pt"
+        android:gravity="center"
+        android:ems="10"
+        android:maxLength="6"
+        android:inputType="textCapCharacters"
+        android:layout_centerHorizontal="true"/>
+</RelativeLayout>

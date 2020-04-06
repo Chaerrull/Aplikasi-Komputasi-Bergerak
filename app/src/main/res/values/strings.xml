@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pemanasan</string>
+    <string name="logo">LogoAwal</string>
+    <string name="judul">monitory membantu anda mengontrol hp anak</string>
+    <string name="tombol_mulai">Mulai</string>
+    <string name="kode_kel">Kode Keluarga</string>
+    <string name="sub_kode">Ketikkan kode keluarga yang Ayah Bunda miliki disini</string>
+    <string name="disc_kode">Dengan menekan tombol masuk berarti anda menyetujui</string>
+    <string name="masuk">Masuk</string>
+    <string name="belum">Belum punya kode keluarga?</string>
+    <string name="beliKode">Beli Kode Keluarga Disini</string>
+    <string name="nama">Nama Panggilan Kamu</string>
+    <string name="umur">Umur Kamu</string>
+    <string name="akhir"></string>
+
+</resources>

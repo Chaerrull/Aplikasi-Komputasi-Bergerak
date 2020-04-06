@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f2f2f2"
+    tools:context=".namaUmur">
+
+    <TextView
+        android:id="@+id/textnama"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/nama"
+        android:textColor="#202020"
+        android:textSize="12pt"
+        />
+
+    <TextView
+        android:id="@+id/textumur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_below="@+id/nama"
+        android:paddingTop="75dp"
+        android:fontFamily="@font/nunito_bold"
+        android:text="@string/umur"
+        android:textColor="#202020"
+        android:textSize="12pt"/>
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textnama"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:hint="Contoh : budi" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="295dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="18dp"
+        android:layout_below="@+id/textumur"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="Contoh : 12"
+        android:inputType="number"
+        android:maxLength="2" />
+
+    <Button
+        android:id="@+id/lanjut"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="28dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button_oval"
+        android:fontFamily="@font/nunito_bold"
+        android:text="Lanjutkan"
+        android:textAllCaps="false"
+        android:textSize="9pt" />
+
+
+</RelativeLayout>
